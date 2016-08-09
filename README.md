@@ -25,4 +25,4 @@ Copy this repo's functions/loadtest directory to lambda_loadtest/functions
 	$ apex metrics
 
 
-Be careful not to flood the interweb, try to do multiple parallel calls with for/xargs etc.
+Be careful not to flood the interweb, try to do multiple parallel calls with for/xargs etc. Tune timeout and memory to suit your test.
