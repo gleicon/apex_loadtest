@@ -11,7 +11,7 @@ Install and Configure [apex](http://apex.run/)
 	$ cd lambda_loadtest
 	$ apex init
 	- Answer the questions, etc
-	- 
+
 Install golang support and vegeta
 
 	$ go get -u github.com/apex/go-apex
