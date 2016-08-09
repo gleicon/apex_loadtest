@@ -1,0 +1,4 @@
+{
+  "runtime":"golang",
+  "timeout":30
+}
