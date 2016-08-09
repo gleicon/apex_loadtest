@@ -11,7 +11,12 @@ Install and Configure [apex](http://apex.run/)
 	$ cd lambda_loadtest
 	$ apex init
 	- Answer the questions, etc
+	- 
+Install golang support and vegeta
 
+	$ go get -u github.com/apex/go-apex
+  	$ go get -u github.com/tsenart/vegeta/lib
+  
 Copy this repo's functions/loadtest directory to lambda_loadtest/functions
 
 	$ apex deploy
@@ -20,4 +25,4 @@ Copy this repo's functions/loadtest directory to lambda_loadtest/functions
 	$ apex metrics
 
 
-Be careful, try to parallelize it with xargs etc.
+Be careful not to flood the interweb, try to do multiple parallel calls with for/xargs etc.
